@@ -38,7 +38,6 @@ h4, h5, h6 {
     margin:                     0 0 12px;
 }
 
-
 p {
   margin:                       0 0 15px;
 }
@@ -56,7 +55,6 @@ a, a:link {
 a:hover, a:focus, a:active {
   text-decoration:              underline;
 }
-
 
 a.relatedStory {
   font:                         12px Helvetica, Arial, sans-serif;
