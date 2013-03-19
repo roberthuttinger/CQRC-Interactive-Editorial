@@ -1,0 +1,277 @@
+/* ==================================[ Typography ]==================================== */
+
+/**
+ * Address font sizes and margins set differently in IE 6/7.
+ * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+body {
+  color:                        #333;
+  font:                         15px/1.4 Georgia, "Times New Roman", Times, serif;
+  text-indent:                  0px;
+
+}
+
+h1, h2, h3, h4, h5, h6, .byline {
+  font-family:                  Helvetica, Arial, sans-serif;
+  color:                        #222;
+}
+
+h1 {
+  font-size:                    30px;
+  margin:                       0 0 12px;
+}
+
+h2 {
+    font-size:                  22px;
+    margin:                     0 0 12px;
+}
+
+h3 {
+    font-size:                  18px;
+    margin:                     0 0 12px;
+}
+
+h4, h5, h6 {
+    font-size:                  15px;
+    margin:                     0 0 12px;
+}
+
+
+p {
+  margin:                       0 0 15px;
+}
+
+p.byline {
+  font-size:                    12px;
+  color:                        #999;
+}
+
+a, a:link {
+  color:                        #1477d1;
+  text-decoration:              none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration:              underline;
+}
+
+
+a.relatedStory {
+  font:                         12px Helvetica, Arial, sans-serif;
+  padding:                      0;
+  border-width:                 1px;
+  display:                      inline-block;
+  margin:                       0;
+}
+
+a.relatedStory:before {
+  content:                      "[ ";
+}
+
+a.relatedStory:after {
+  content:                      " ]";
+}
+
+.superPadded, .halfWidth {
+  margin-right:                 auto;
+  margin-left:                  auto;
+  width:                        620px;
+}
+
+.spaceAbove {
+  margin-top:                   24px;
+}
+
+.spaceBelow {
+  margin-bottom:                24px;
+}
+
+.center {
+  text-align:                   center;
+}
+
+.left {
+  text-align:                   left;
+}
+
+.right {
+  text-align:                   right;
+}
+
+.sans {
+  font-family:                  Helvetica, Arial, sans-serif;
+}
+
+.serif {
+  font-family:                  Georgia, "Times New Roman", Times, serif;
+}
+
+.size15 {
+  font-size:                    15px;
+}
+
+.size14 {
+  font-size:                    14px;
+  line-height:                  1.5;
+}
+
+.size13 {
+  font-size:                    13px;
+  line-height:                  1.5;
+}
+
+.size12 {
+  font-size:                    12px;
+  line-height:                  1.5;
+}
+
+.grey {
+  color:                        #999;
+}
+
+.bold {
+  font-weight:                  bold;
+}
+
+.notBold {
+  font-weight:                  normal;
+}
+
+.ital {
+  font-style:                   italic;
+}
+
+.notItal {
+  font-style:                   normal;
+}
+
+/* ====================================[ Tables ]====================================== */
+
+table, tr, td {
+  font-family:                  Helvetica, Arial, sans-serif;
+  font-size:                    14px;
+  line-height:                  1.45;
+  width:                        918px; /*!@#RH*/
+}
+
+.fullWidth {
+  width:                        920px;
+}
+
+table {
+  margin:                       10px auto;
+}
+
+tr, td {
+  padding:                      3px 6px;
+  text-shadow:                  0 1px 0 #ffffff;
+  vertical-align:               top;
+}
+
+.tableTitle {
+  color:                        #007dd6;
+  line-height:                  1.33;
+  font-size:                    19px;
+  font-weight:                  bold;
+  text-align:                   center;
+  margin-bottom:                2px;
+}
+
+.tableUnits {
+  text-align:                   center;
+  font:                         normal normal 12px Helvetica, Arial, sans-serif;
+}
+
+.colDescription, .colDescription th {
+  font-size:                    11px;
+  background-color:             #0fa1f2;
+  color:                        #ffffff;
+  font-weight:                  normal;
+  font-style:                   normal;
+  text-shadow:                  none;
+  border:                       1px solid white;
+  padding:                      4px 6px;
+  vertical-align:               middle;
+  line-height:                  1.25;
+  text-align:                   left;
+}
+
+.colDescription .sortedBoth {
+  background:                   url(../images/sort_both_blue.gif) no-repeat right 49%;
+  padding-right:                17px;
+  cursor:                       pointer;
+}
+
+.colDescription .sortedBoth:hover {
+  background-color:             #1c94eb;
+}
+
+.colDescription .sortedUp {
+  background:                   url(../images/sort_up.gif) no-repeat right 49% #0074d5;
+  padding-right:                17px;
+}
+
+.colDescription .sortedDown {
+  background:                   url(../images/sort_down.gif) no-repeat right 49% #0074d5;
+  padding-right:                17px;
+}
+
+.groupHed, .groupHed td {
+  font-weight:                  bold;
+  border-bottom:                1px solid #c2c2c2;
+  padding-top:                  6px;
+  padding-left:                 0;
+
+}
+
+.groupTally, .groupTally td {
+  border-top:                   1px solid #c2c2c2;
+  font-weight:                  bold;
+  padding-bottom:               8px;
+}
+
+.grandTotal, .grandTotal td {
+  font-weight:                  bold;
+  border-top:                   1px solid #444;
+  border-bottom:                1px solid #444;
+  padding-top:                  6px;
+  padding-bottom:               6px;
+  vertical-align:               middle;
+}
+
+tr.groupItem {
+  color:                        #888;
+}
+
+.footnotes, .source {
+  font:                         12px Helvetica, Arial, sans-serif;
+  margin-bottom:                4px;
+}
+
+tbody tr:hover {
+  background-color:             #f6f6f5;
+  color:                        #333;
+}
+
+tr.groupHed:hover, tr.groupTally:hover {
+  background:                   inherit;
+}
+
+.extraCellPadding tr, .extraCellPadding tr td {
+  padding:                      7px 9px;
+}
+
+.extraCellPadding tr th {
+  padding-right:                9px;
+  padding-left:                 9px;
+}
+
+.gridLines tbody tr {
+  border-bottom:                1px solid #eee;
+}
+
+.smallTypeTable tr td {
+  font-size:                    13px;
+}
